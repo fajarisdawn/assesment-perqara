@@ -10,7 +10,6 @@
 		0919EB022A8A2C4D0033561E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0919EB012A8A2C4D0033561E /* AppDelegate.swift */; };
 		0919EB0B2A8A2C4E0033561E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0919EB0A2A8A2C4E0033561E /* Assets.xcassets */; };
 		0919EB0E2A8A2C4E0033561E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0919EB0C2A8A2C4E0033561E /* LaunchScreen.storyboard */; };
-		0919EB192A8A2C4F0033561E /* assesment_perqaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0919EB182A8A2C4F0033561E /* assesment_perqaraTests.swift */; };
 		0919EB242A8A2C4F0033561E /* assesment_perqaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0919EB232A8A2C4F0033561E /* assesment_perqaraUITests.swift */; };
 		092C89F42A8BE1EF003D71B3 /* FavoritesViewController.Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C89F32A8BE1EF003D71B3 /* FavoritesViewController.Extension.swift */; };
 		092C8A042A8C0232003D71B3 /* IndicatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C8A022A8C0232003D71B3 /* IndicatorTableViewCell.swift */; };
@@ -40,6 +39,9 @@
 		094DBA042A8B6313004CCF9C /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094DBA022A8B6313004CCF9C /* GameViewController.xib */; };
 		094DBA092A8B6321004CCF9C /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094DBA082A8B6321004CCF9C /* GameViewModel.swift */; };
 		094DBA0E2A8B6E9C004CCF9C /* GameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094DBA0D2A8B6E9C004CCF9C /* GameDetail.swift */; };
+		09649DB42A8D21B400491BE2 /* dashboarUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09649DB32A8D21B400491BE2 /* dashboarUnitTest.swift */; };
+		09649DBD2A8DEB8000491BE2 /* gamespage1.json in Resources */ = {isa = PBXBuildFile; fileRef = 09649DBC2A8DEB8000491BE2 /* gamespage1.json */; };
+		09649DD12A8E103E00491BE2 /* gamespage2.json in Resources */ = {isa = PBXBuildFile; fileRef = 09649DD02A8E103E00491BE2 /* gamespage2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +68,6 @@
 		0919EB0D2A8A2C4E0033561E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0919EB0F2A8A2C4E0033561E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0919EB142A8A2C4F0033561E /* assesment-perqaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "assesment-perqaraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0919EB182A8A2C4F0033561E /* assesment_perqaraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assesment_perqaraTests.swift; sourceTree = "<group>"; };
 		0919EB1A2A8A2C4F0033561E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0919EB1F2A8A2C4F0033561E /* assesment-perqaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "assesment-perqaraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0919EB232A8A2C4F0033561E /* assesment_perqaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assesment_perqaraUITests.swift; sourceTree = "<group>"; };
@@ -99,6 +100,9 @@
 		094DBA022A8B6313004CCF9C /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
 		094DBA082A8B6321004CCF9C /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		094DBA0D2A8B6E9C004CCF9C /* GameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetail.swift; sourceTree = "<group>"; };
+		09649DB32A8D21B400491BE2 /* dashboarUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboarUnitTest.swift; sourceTree = "<group>"; };
+		09649DBC2A8DEB8000491BE2 /* gamespage1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gamespage1.json; sourceTree = "<group>"; };
+		09649DD02A8E103E00491BE2 /* gamespage2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gamespage2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +166,8 @@
 		0919EB172A8A2C4F0033561E /* assesment-perqaraTests */ = {
 			isa = PBXGroup;
 			children = (
-				0919EB182A8A2C4F0033561E /* assesment_perqaraTests.swift */,
+				09649DBB2A8DEA0800491BE2 /* json */,
+				09649DB32A8D21B400491BE2 /* dashboarUnitTest.swift */,
 				0919EB1A2A8A2C4F0033561E /* Info.plist */,
 			);
 			path = "assesment-perqaraTests";
@@ -411,6 +416,15 @@
 			path = viewModel;
 			sourceTree = "<group>";
 		};
+		09649DBB2A8DEA0800491BE2 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				09649DBC2A8DEB8000491BE2 /* gamespage1.json */,
+				09649DD02A8E103E00491BE2 /* gamespage2.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -528,6 +542,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09649DBD2A8DEB8000491BE2 /* gamespage1.json in Resources */,
+				09649DD12A8E103E00491BE2 /* gamespage2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,7 +592,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0919EB192A8A2C4F0033561E /* assesment_perqaraTests.swift in Sources */,
+				09649DB42A8D21B400491BE2 /* dashboarUnitTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
